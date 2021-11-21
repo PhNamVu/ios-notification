@@ -53,10 +53,21 @@ struct ContentView: View {
             Button ("Play sound") {
                 SoundManager.instance.playSound()
             }
-            Button ("Vibrate success") { HapticManager.instance.notification(type:.success)
-            }
+            .padding()
+            .background(Color.blue)
+            .foregroundColor(.white)
+            .clipShape(Capsule())
+            Button ("Vibrate success") { HapticManager.instance.notification(type:.success)}
+            .padding()
+            .background(Color.blue)
+            .foregroundColor(.white)
+            .clipShape(Capsule())
         
             Button("Vibrate heavy") { HapticManager.instance.impact(style:.heavy) }
+            .padding()
+            .background(Color.blue)
+            .foregroundColor(.white)
+            .clipShape(Capsule())
         }
     }
 }
