@@ -14,6 +14,7 @@
 		F6EB2AD6274A8A5200984419 /* NotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EB2AD5274A8A5200984419 /* NotificationTests.swift */; };
 		F6EB2AE0274A8A5200984419 /* NotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EB2ADF274A8A5200984419 /* NotificationUITests.swift */; };
 		F6EB2AE2274A8A5200984419 /* NotificationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EB2AE1274A8A5200984419 /* NotificationUITestsLaunchTests.swift */; };
+		F6EB2AF0274A8D9D00984419 /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6EB2AEF274A8D9D00984419 /* bell.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F6EB2ADB274A8A5200984419 /* NotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6EB2ADF274A8A5200984419 /* NotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUITests.swift; sourceTree = "<group>"; };
 		F6EB2AE1274A8A5200984419 /* NotificationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F6EB2AEF274A8D9D00984419 /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bell.mp3; path = "../../../../../Desktop/hand-bell-ringing-sound/bell.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		F6EB2AC3274A8A4F00984419 /* Notification */ = {
 			isa = PBXGroup;
 			children = (
+				F6EB2AEE274A8D7C00984419 /* Sound */,
 				F6EB2AC4274A8A4F00984419 /* NotificationApp.swift */,
 				F6EB2AC6274A8A4F00984419 /* ContentView.swift */,
 				F6EB2AC8274A8A5100984419 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				F6EB2AE1274A8A5200984419 /* NotificationUITestsLaunchTests.swift */,
 			);
 			path = NotificationUITests;
+			sourceTree = "<group>";
+		};
+		F6EB2AEE274A8D7C00984419 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				F6EB2AEF274A8D9D00984419 /* bell.mp3 */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			files = (
 				F6EB2ACC274A8A5100984419 /* Preview Assets.xcassets in Resources */,
 				F6EB2AC9274A8A5100984419 /* Assets.xcassets in Resources */,
+				F6EB2AF0274A8D9D00984419 /* bell.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
